@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileBackup", "FileBackup.csproj", "{8AAEAC07-88E9-4CFB-A911-BC0E14F24079}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileBackup.Models", "FileBackup.Models\FileBackup.Models.csproj", "{03C8C1EC-D5D6-44CF-ABAC-0A415920A675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{8AAEAC07-88E9-4CFB-A911-BC0E14F24079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AAEAC07-88E9-4CFB-A911-BC0E14F24079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AAEAC07-88E9-4CFB-A911-BC0E14F24079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C8C1EC-D5D6-44CF-ABAC-0A415920A675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C8C1EC-D5D6-44CF-ABAC-0A415920A675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C8C1EC-D5D6-44CF-ABAC-0A415920A675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C8C1EC-D5D6-44CF-ABAC-0A415920A675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

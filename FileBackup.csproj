@@ -5,4 +5,52 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="3.1.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="FileBackup.Models\FileBackup.Models\Class1.cs" />
+    <Compile Remove="FileBackup.Models\Class1.cs" />
+    <Compile Remove="FileBackup.Models\AppSettings.cs" />
+    <Compile Remove="FileBackup.Models\AppSettings.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.assets.cache" />
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\FileBackup.Models.csproj.nuget.g.props" />
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\project.assets.json" />
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\FileBackup.Models.csproj.nuget.dgspec.json" />
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\project.nuget.cache" />
+    <None Remove="FileBackup.Models\FileBackup.Models\obj\FileBackup.Models.csproj.nuget.g.targets" />
+    <None Remove="FileBackup.Models\obj\FileBackup.Models.csproj.nuget.dgspec.json" />
+    <None Remove="FileBackup.Models\obj\FileBackup.Models.csproj.nuget.g.props" />
+    <None Remove="FileBackup.Models\obj\project.assets.json" />
+    <None Remove="FileBackup.Models\obj\FileBackup.Models.csproj.nuget.g.targets" />
+    <None Remove="FileBackup.Models\obj\project.nuget.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.assets.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.deps.json" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FileBackup.Models\FileBackup.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>  
+  </ItemGroup>
 </Project>
