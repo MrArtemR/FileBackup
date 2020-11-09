@@ -20,6 +20,20 @@
     <Compile Remove="FileBackup.Models\AppSettings.cs" />
     <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
     <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.Models\IFileBackup.cs" />
+    <Compile Remove="FileBackup.BL\Class1.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.BL\BackupDirectoryFiles.cs" />
+    <Compile Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.BL\BackupDirectoryFiles.cs" />
+    <Compile Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.Models\PathToSettingCommandLine.cs" />
+    <Compile Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfo.cs" />
+    <Compile Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="FileBackup.Models\FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.assets.cache" />
@@ -44,9 +58,84 @@
     <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.dll" />
     <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
     <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csproj.FileListAbsolute.txt" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.assets.cache" />
+    <None Remove="FileBackup.BL\obj\FileBackup.BL.csproj.nuget.g.props" />
+    <None Remove="FileBackup.BL\obj\FileBackup.BL.csproj.nuget.g.targets" />
+    <None Remove="FileBackup.BL\obj\project.assets.json" />
+    <None Remove="FileBackup.BL\obj\project.nuget.cache" />
+    <None Remove="FileBackup.BL\obj\FileBackup.BL.csproj.nuget.dgspec.json" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.deps.json" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.deps.json" />
+    <None Remove="FileBackup.BL\obj\project.assets.json" />
+    <None Remove="FileBackup.BL\obj\project.nuget.cache" />
+    <None Remove="FileBackup.BL\obj\FileBackup.BL.csproj.nuget.dgspec.json" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.FileListAbsolute.txt" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CopyComplete" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.deps.json" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.deps.json" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CopyComplete" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.deps.json" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.deps.json" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.deps.json" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\bin\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csprojAssemblyReference.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.pdb" />
+    <None Remove="FileBackup.BL\obj\Debug\netcoreapp3.1\FileBackup.BL.dll" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.csproj.CoreCompileInputs.cache" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.AssemblyInfoInputs.cache" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.dll" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.deps.json" />
+    <None Remove="FileBackup.Models\bin\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
+    <None Remove="FileBackup.Models\obj\Debug\netcoreapp3.1\FileBackup.Models.pdb" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FileBackup.Models\FileBackup.Models.csproj" />
+    <ProjectReference Include="FileBackup.BL\FileBackup.BL.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="appsettings.json">
